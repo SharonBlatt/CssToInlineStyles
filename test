@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<style type="text/css">
+body {
+
+}
+
+.tailor-container {
+ font-family: 'Open Sans', sans-serif;
+ height: 300px;
+ width: 300px;
+ margin: 0;
+ padding: 0;
+ padding-top: 30px;
+ padding-left: 2px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ background-image: url("https://www.tailorbrands.com/wp-content/uploads/2019/02/TB_component_bg.jpg");
+ background-repeat: no-repeat;
+ background-size: 300px 300px;
+}
+
+.tailor-title {
+ font-size: 1.3rem;
+ margin-bottom: 0.6rem;
+ text-align: center;
+ color: #ffffff;
+}
+
+.tailor-subtitle {
+ font-size: 1rem;
+ margin-bottom: 0.8rem;
+ text-align: center;
+ color: #ffffff;
+}
+
+.tailor-login-form {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ padding: 1rem;
+}
+
+.tailor-form-control {
+ border-radius: 0.8rem;
+ border: none;
+ padding-top: 0.6rem;
+ padding-bottom: 0.6rem;
+ padding-left: 1.4rem;
+ padding-right: 1.4rem; margin: 0.3rem;
+ outline: none;
+ box-shadow: 0 2px 4px #00000012;
+}
+
+.tailor-submit-btn {
+ border-radius: 0.8rem;
+ border: none;
+ padding-top: 0.6rem;
+ padding-bottom: 0.6rem;
+ padding-left: 1.8rem;
+ padding-right: 1.8rem;
+ margin: 0.4rem;
+ outline: none;
+ background: #ee9248;
+ color: #ffffff;
+ box-shadow: 0 2px 4px #00000012;
+ cursor: pointer;
+}
+​
+.tailor-submit-btn:hover {
+ background: #bb2f41;
+}
+</style>
+<body>
+<div class="tailor-container">
+     <form id="login-form" class="tailor-login-form" action="https://studio.tailorbrands.com/external-business-create" method="get">
+      <span class="tailor-title">Logo Design Made Simple</span>
+      <span class="tailor-subtitle">Instant Custom-Made Logos.<br><b>Try it for Free</b></span>
+      <input type="text" name="name" id="name" class="tailor-form-control" placeholder="Enter a Logo Name">
+      <input type="submit" class="tailor-submit-btn" value="Design!">
+     </form>
+    </div>
+</body>
+</html>
